@@ -3,6 +3,14 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "Google Student Ambassador",
+      organization: "Google",
+      period: "2025–Present",
+      type: "Leadership",
+      status: "current",
+      description: "Becoming the face of Gemini at campus and holding events and workshops regarding Gemini and Google technologies"
+    },
+    {
       title: "Operations Head",
       organization: "SU Knowledge Hub",
       period: "Dec 2025–Present",

@@ -17,46 +17,53 @@ const Certifications = () => {
       description: "Advanced machine learning techniques and real-world applications"
     },
     {
-      title: "Google AI Study Jams",
-      issuer: "GDSC (Google Developer Student Clubs)",
-      type: "Course",
-      icon: <Code className="text-accent" size={24} />,
-      description: "Comprehensive AI and machine learning fundamentals with Google"
-    },
+      title: "Hackvibe Winner",
+      issuer: "Vignan Institute of Technology",
+      type: "Hackathon",
+      icon: <Trophy className="text-success" size={24} />,
+      description: "Won the 1st prize at Hackvibe hackathon at Vignan, whose theme was based on Vibe coding and AI"
+    }
     {
       title: "Hack Revolution Participant",
       issuer: "Technical Hackathon",
-      type: "Competition",
+      type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
       description: "Participated in competitive programming and innovation challenge"
     },
     {
       title: "Hackprix Participant", 
       issuer: "Programming Competition",
-      type: "Competition",
+      type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
-      description: "Participated in algorithmic problem-solving competition"
+      description: "Participated in an algorithmic problem-solving competition"
     },
     {
       title: "Web3 Buildathon Participant",
       issuer: "Blockchain Competition",
-      type: "Competition", 
+      type: "Hackathon", 
       icon: <Globe className="text-accent" size={24} />,
       description: "Participated in decentralized application development challenge"
     },
     {
       title: "Innovatia Panoply 2025 - Consolation Prize",
-      issuer: "Tech Expo",
-      type: "Competition",
+      issuer: "MJCET",
+      type: "Tech Expo",
       icon: <Award className="text-primary" size={24} />,
       description: "Won consolation prize for innovative project presentation"
     },
     {
       title: "Expogenix Winner",
-      issuer: "Innovation Expo",
-      type: "Competition",
+      issuer: "MJCET",
+      type: "Tech Expo",
       icon: <Award className="text-primary" size={24} />,
       description: "Outstanding project presentation and technical innovation"
+    },
+    {
+      title: "Google AI Study Jams",
+      issuer: "GDSC (Google Developer Student Clubs)",
+      type: "Course",
+      icon: <Code className="text-accent" size={24} />,
+      description: "Comprehensive AI and machine learning fundamentals with Google"
     },
     {
       title: "Organizer at DATANYX",
@@ -65,6 +72,13 @@ const Certifications = () => {
       icon: <Users className="text-accent" size={24} />,
       description: "Led marketing initiatives for Telangana's first datathon, both on campus and off campus, and volunteered for event coordination"
     }
+    {
+      title: "Organizer at FEEl",
+      issuer: "Goodmind Care Foundation",
+      type: "Volunteer",
+      icon: <Code className="text-accent" size={24} />,
+      description: "Led in bringing up partnership stalls and marketing initiatives for Telangana's biggest mental wellness event, which happened at Sattva Knowledge City"
+    },
   ];
 
   const getTypeColor = (type: string) => {

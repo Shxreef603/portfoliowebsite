@@ -11,7 +11,7 @@ const Experience = () => {
       description: "Leading the organization and coordinating the activities and events"
     },
     {
-      title: "Campus Developr Advocate",
+      title: "Campus Developer Advocate",
       organization: "Code for India Foundation",
       period: "Sept 2025–Present",
       type: "Leadership",

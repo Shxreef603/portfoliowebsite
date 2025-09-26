@@ -22,7 +22,7 @@ const Certifications = () => {
       type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
       description: "Won the 1st prize at Hackvibe hackathon at Vignan, whose theme was based on Vibe coding and AI"
-    }
+    },
     {
       title: "Hack Revolution Participant",
       issuer: "Technical Hackathon",
@@ -71,7 +71,7 @@ const Certifications = () => {
       type: "Leadership",
       icon: <Users className="text-accent" size={24} />,
       description: "Led marketing initiatives for Telangana's first datathon, both on campus and off campus, and volunteered for event coordination"
-    }
+    },
     {
       title: "Organizer at FEEl",
       issuer: "Goodmind Care Foundation",

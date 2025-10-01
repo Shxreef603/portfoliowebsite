@@ -130,7 +130,7 @@ const Certifications = () => {
 
               {/* Achievement Badge */}
               <div className="mt-4 pt-4 border-t border-border">
-                <div className="flex items-center justify-between">
+                <div className=" flex items-center justify-between">
                   <span className="text-xs text-muted-foreground">Achievement</span>
                   <div className="flex items-center gap-1">
                     <Award size={16} className="text-accent" />
@@ -149,18 +149,18 @@ const Certifications = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">2</div>
-                <div className="text-muted-foreground text-sm">ML Internships</div>
+                <div className="text-muted-foreground text-sm">Internships</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-success mb-2">1</div>
-                <div className="text-muted-foreground text-sm">Competition Win</div>
+                <div className="text-3xl font-bold text-success mb-2">3</div>
+                <div className="text-muted-foreground text-sm">Competition Wins</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-2">1</div>
                 <div className="text-muted-foreground text-sm">Google Program</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">9+</div>
+                <div className="text-3xl font-bold text-primary mb-2">10+</div>
                 <div className="text-muted-foreground text-sm">Total Achievements</div>
               </div>
             </div>

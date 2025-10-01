@@ -73,7 +73,7 @@ const Certifications = () => {
       description: "Led marketing initiatives for Telangana's first datathon, both on campus and off campus, and volunteered for event coordination"
     },
     {
-      title: "Organizer at FEEl",
+      title: "Organizer at FEEL",
       issuer: "Goodmind Care Foundation",
       type: "Volunteer",
       icon: <Code className="text-accent" size={24} />,

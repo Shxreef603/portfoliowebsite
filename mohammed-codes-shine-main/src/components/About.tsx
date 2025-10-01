@@ -41,7 +41,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Projects Completed</span>
-                  <span className="font-bold text-2xl text-primary">10+</span>
+                  <span className="font-bold text-2xl text-primary">5+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Leadership Roles</span>

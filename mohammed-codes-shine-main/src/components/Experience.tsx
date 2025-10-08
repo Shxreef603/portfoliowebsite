@@ -11,20 +11,36 @@ const Experience = () => {
       description: "Leading the organization and coordinating the activities and events"
     },
     {
+      title: "Google Student Ambassador",
+      organization: "Google",
+      period: "Aug 2025–Present",
+      type: "Leadership",
+      status: "current",
+      description: "Becoming the face of Gemini on campus and holding events and workshops regarding Gemini and Google technologies"
+    },
+    {
       title: "Campus Developer Advocate",
       organization: "Code for India Foundation",
       period: "Sept 2025–Present",
       type: "Leadership",
       status: "current",
-      description: "Becoming the face of CFI at campus and holding events and workshops with CFI and promoting it's initiatives"
+      description: "Becoming the face of CFI at the campus and holding events and workshops with CFI, and promoting its initiatives"
     },
     {
-      title: "Google Student Ambassador",
-      organization: "Google",
-      period: "2025–Present",
+      title: "Web Development Intern",
+      organization: "Bioreform",
+      period: "Oct 2025–Present",
+      type: "Internship",
+      status: "current",
+      description: "Developing an e-commerce website for the organization"
+    },
+    {
+      title: "Operations Head",
+      organization: "SU Knowledge Hub",
+      period: "Dec 2025–Present",
       type: "Leadership",
       status: "current",
-      description: "Becoming the face of Gemini at campus and holding events and workshops regarding Gemini and Google technologies"
+      description: "Leading operations and strategic initiatives"
     },
     {
       title: "Campus Lead",
@@ -69,18 +85,10 @@ const Experience = () => {
     {
       title: "General Secretary",
       organization: "Orator's Club MJCET",
-      period: "Aug 2024–Present",
+      period: "Aug 2024–Oct 2025",
       type: "Leadership",
       status: "current", 
       description: "Managing club operations and public speaking events"
-    },
-    {
-      title: "Operations Head",
-      organization: "SU Knowledge Hub",
-      period: "Dec 2025–Present",
-      type: "Leadership",
-      status: "current",
-      description: "Leading operations and strategic initiatives"
     },
     {
       title: "Technical Team Member",

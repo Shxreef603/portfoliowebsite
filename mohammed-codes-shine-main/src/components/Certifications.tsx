@@ -148,11 +148,11 @@ const Certifications = () => {
             <h3 className="text-2xl font-bold text-center mb-8">Achievement Overview</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">2</div>
+                <div className="text-3xl font-bold text-primary mb-2">3</div>
                 <div className="text-muted-foreground text-sm">Internships</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-success mb-2">3</div>
+                <div className="text-3xl font-bold text-success mb-2">4</div>
                 <div className="text-muted-foreground text-sm">Competition Wins</div>
               </div>
               <div className="text-center">

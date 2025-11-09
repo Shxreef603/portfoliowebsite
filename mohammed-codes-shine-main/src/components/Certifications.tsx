@@ -10,13 +10,6 @@ const Certifications = () => {
       description: "Hands-on experience in ML model development and data analysis"
     },
     {
-      title: "Machine Learning Internship",
-      issuer: "Cognifyz Technologies", 
-      type: "Internship",
-      icon: <Brain className="text-primary" size={24} />,
-      description: "Advanced machine learning techniques and real-world applications"
-    },
-    {
       title: "HackRevolution 2025 Winner",
       issuer: "MJCET",
       type: "Competition",

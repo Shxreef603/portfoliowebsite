@@ -17,28 +17,35 @@ const Certifications = () => {
       description: "Advanced machine learning techniques and real-world applications"
     },
     {
-      title: "Hackvibe Winner",
+      title: "HackRevolution 2025 Winner",
+      issuer: "MJCET",
+      type: "Competition",
+      icon: <Trophy className="text-accent" size={24} />,
+      description: "Won HackRevolution 2025 and received a cash prize of ₹25,000 for developing an innovative hardware-based solution during the national hackathon organized by CSI × ECELL.",
+    },
+    {
+      title: "Hackvibe 2025 Winner",
       issuer: "Vignan Institute of Technology",
       type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
       description: "Won the 1st prize at Hackvibe hackathon at Vignan, whose theme was based on Vibe coding and AI"
     },
     {
-      title: "Hack Revolution Participant",
+      title: "Hack Revolution 2023 Participant",
       issuer: "Technical Hackathon",
       type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
       description: "Participated in competitive programming and innovation challenge"
     },
     {
-      title: "Hackprix Participant", 
+      title: "Hackprix 2025 Participant", 
       issuer: "Programming Competition",
       type: "Hackathon",
       icon: <Trophy className="text-success" size={24} />,
       description: "Participated in an algorithmic problem-solving competition"
     },
     {
-      title: "Web3 Buildathon Participant",
+      title: "Web3 Buildathon 2025 Participant",
       issuer: "Blockchain Competition",
       type: "Hackathon", 
       icon: <Globe className="text-accent" size={24} />,
@@ -66,14 +73,14 @@ const Certifications = () => {
       description: "Comprehensive AI and machine learning fundamentals with Google"
     },
     {
-      title: "Organizer at DATANYX",
+      title: "Organizer at DATANYX 2024",
       issuer: "Telangana's First Datathon",
       type: "Leadership",
       icon: <Users className="text-accent" size={24} />,
       description: "Led marketing initiatives for Telangana's first datathon, both on campus and off campus, and volunteered for event coordination"
     },
     {
-      title: "Organizer at FEEL",
+      title: "Organizer at FEEL25",
       issuer: "Goodmind Care Foundation",
       type: "Volunteer",
       icon: <Code className="text-accent" size={24} />,

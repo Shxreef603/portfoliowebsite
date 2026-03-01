@@ -156,7 +156,7 @@ const Skills = () => {
         <div className="mt-12 text-center fade-in fade-in-delay-3">
           <div className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-2 rounded-full border border-accent/30">
             <Zap size={20} />
-            <span className="font-semibold">Typing Speed: 100 WPM</span>
+            <span className="font-semibold">Typing Speed: 130 WPM</span>
           </div>
         </div>
       </div>

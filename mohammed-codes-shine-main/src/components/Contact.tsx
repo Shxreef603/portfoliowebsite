@@ -161,23 +161,7 @@ const Contact = () => {
               ))}
             </div>
 
-            <div>
-              <p className="text-xs uppercase font-bold tracking-[0.2em] text-cyan-400 mb-6">Social Connection</p>
-              <div className="flex gap-4">
-                {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`flex items-center justify-center w-14 h-14 bg-slate-900/60 border border-slate-700/50 rounded-2xl transition-all duration-300 shadow-xl ${social.color}`}
-                    aria-label={social.name}
-                  >
-                    {social.icon}
-                  </a>
-                ))}
-              </div>
-            </div>
+            {/* Removed Social Connection per request */}
 
             <div className="p-6 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 rounded-3xl border border-cyan-500/20">
               <div className="flex items-center gap-3 mb-3">

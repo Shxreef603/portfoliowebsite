@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
 import { NavBar } from "@/components/ui/tubelight-navbar";
+import { TidalCursor } from "@/components/ui/tidal-cursor";
 import { Home, User, GraduationCap, Briefcase, Code2, Award, Brain, Mail } from "lucide-react";
 
 const Index = () => {
@@ -46,7 +47,8 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background font-inter">
+    <div className="min-h-screen bg-background font-inter overflow-hidden">
+      <TidalCursor />
       <NavBar items={navItems} />
       <Hero />
       <About />

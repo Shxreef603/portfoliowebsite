@@ -90,7 +90,7 @@ export function NavBar({ items, className }: NavBarProps) {
   return (
     <div
       className={cn(
-        "fixed bottom-0 sm:top-0 left-1/2 -translate-x-1/2 z-[100] mb-6 sm:pt-6 w-full max-w-fit px-4 sm:px-0",
+        "fixed top-0 left-1/2 -translate-x-1/2 z-[100] mt-6 w-full max-w-fit px-4 sm:px-0",
         className,
       )}
     >

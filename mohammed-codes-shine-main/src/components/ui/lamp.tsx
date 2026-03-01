@@ -17,7 +17,7 @@ export const LampContainer = ({
         className
       )}
     >
-      <div className="relative flex w-full flex-1 scale-y-75 sm:scale-y-125 items-center justify-center sm:-translate-y-0 -translate-y-20 isolate z-0">
+      <div className="relative flex w-full flex-1 scale-y-75 sm:scale-y-125 items-center justify-center sm:-translate-y-0 -translate-y-64 isolate z-0">
         {/* Left cone */}
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
@@ -82,13 +82,10 @@ export const LampContainer = ({
           }}
           className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400"
         ></motion.div>
-
-        {/* Dark base overlay */}
-        <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[15rem] bg-slate-950 sm:block hidden"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-50 flex flex-col items-center px-5 -translate-y-40 sm:-translate-y-60">
+      <div className="relative z-50 flex flex-col items-center px-5 -translate-y-32 sm:-translate-y-60">
         {children}
       </div>
     </div>

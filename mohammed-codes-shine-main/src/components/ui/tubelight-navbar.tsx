@@ -94,7 +94,7 @@ export function NavBar({ items, className }: NavBarProps) {
         className,
       )}
     >
-      <div className="relative flex items-center bg-slate-900/80 border border-slate-700/50 backdrop-blur-xl py-1 px-1 rounded-full shadow-2xl">
+      <div className="relative flex items-center bg-transparent sm:bg-slate-900/80 border-none sm:border sm:border-slate-700/50 sm:backdrop-blur-xl py-1 px-1 rounded-full sm:shadow-2xl">
         {/* Desktop View */}
         <div className="hidden md:flex items-center gap-1">
           {items.map((item) => {
@@ -149,10 +149,10 @@ export function NavBar({ items, className }: NavBarProps) {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              initial={{ opacity: 0, y: 20, scale: 0.95 }}
-              animate={{ opacity: 1, y: -20, scale: 1 }}
-              exit={{ opacity: 0, y: 20, scale: 0.95 }}
-              className="absolute bottom-full left-0 right-0 mb-4 bg-slate-900/90 border border-slate-700/50 backdrop-blur-2xl rounded-3xl p-4 shadow-2xl flex flex-col gap-2 origin-bottom overflow-hidden"
+              initial={{ opacity: 0, y: -20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 12, scale: 1 }}
+              exit={{ opacity: 0, y: -20, scale: 0.95 }}
+              className="absolute top-full left-0 w-64 bg-slate-900/90 border border-slate-700/50 backdrop-blur-2xl rounded-3xl p-4 shadow-2xl flex flex-col gap-2 origin-top overflow-hidden"
             >
               {items.map((item, idx) => {
                 const Icon = item.icon
@@ -166,12 +166,12 @@ export function NavBar({ items, className }: NavBarProps) {
                     transition={{ delay: idx * 0.05 }}
                     onClick={(e) => scrollToSection(e, item.url, item.name)}
                     className={cn(
-                      "flex items-center gap-4 p-4 rounded-2xl transition-all",
+                      "flex items-center gap-4 p-3 rounded-2xl transition-all",
                       isActive ? "bg-cyan-500/10 text-cyan-400 border border-cyan-500/20" : "text-slate-400 hover:bg-slate-800"
                     )}
                   >
-                    <Icon size={20} className={isActive ? "text-cyan-400" : "text-slate-500"} />
-                    <span className="font-bold text-sm tracking-wide">{item.name}</span>
+                    <Icon size={18} className={isActive ? "text-cyan-400" : "text-slate-500"} />
+                    <span className="font-bold text-xs uppercase tracking-widest">{item.name}</span>
                   </motion.a>
                 )
               })}

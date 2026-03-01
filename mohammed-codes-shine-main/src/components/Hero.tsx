@@ -20,7 +20,7 @@ const Hero = () => {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="text-center relative z-10 pt-20 sm:pt-0"
+          className="text-center relative z-10 pt-0"
         >
           <div className="space-y-6">
             <p className="text-lg text-cyan-400 font-medium tracking-widest uppercase">Hello, I'm</p>

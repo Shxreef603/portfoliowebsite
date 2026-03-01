@@ -90,11 +90,11 @@ export function NavBar({ items, className }: NavBarProps) {
   return (
     <div
       className={cn(
-        "fixed top-0 left-1/2 -translate-x-1/2 z-[100] mt-6 w-full max-w-fit px-4 sm:px-0",
+        "fixed top-4 left-4 z-[100] sm:top-0 sm:left-1/2 sm:-translate-x-1/2 sm:mt-6 w-fit px-0",
         className,
       )}
     >
-      <div className="relative flex items-center bg-slate-900/80 border border-slate-700/50 backdrop-blur-xl py-1.5 px-1.5 rounded-full shadow-2xl">
+      <div className="relative flex items-center bg-slate-900/80 border border-slate-700/50 backdrop-blur-xl py-1 px-1 rounded-full shadow-2xl">
         {/* Desktop View */}
         <div className="hidden md:flex items-center gap-1">
           {items.map((item) => {
@@ -136,17 +136,13 @@ export function NavBar({ items, className }: NavBarProps) {
         </div>
 
         {/* Mobile View Toggle */}
-        <div className="md:hidden flex items-center justify-between w-full min-w-[280px] px-4">
+        <div className="md:hidden flex items-center justify-start w-full min-w-[50px] px-2">
           <button 
             onClick={() => setIsOpen(!isOpen)}
             className="p-2 text-slate-400 hover:text-cyan-400 transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-          <span className="text-sm font-bold text-cyan-400 uppercase tracking-widest">{activeTab}</span>
-          <div className="w-10 h-10 flex items-center justify-center p-2.5 bg-cyan-500/10 rounded-full border border-cyan-500/20">
-            {items.find(i => i.name === activeTab)?.icon && React.createElement(items.find(i => i.name === activeTab)!.icon, { size: 18, className: "text-cyan-400" })}
-          </div>
         </div>
 
         {/* Mobile Menu Expanded */}

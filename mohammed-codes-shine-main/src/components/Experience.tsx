@@ -60,14 +60,6 @@ const Experience = () => {
       description: "Managing campus activities and student engagement"
     },
     {
-      title: "Co-Founder",
-      organization: "Glassic",
-      period: "May 2025–Present",
-      type: "Startup",
-      status: "current",
-      description: "Building conversational voice AI platform"
-    },
-    {
       title: "General Secretary",
       organization: "ACM MJCET",
       period: "Aug 2024–Jul 2025",
@@ -94,9 +86,9 @@ const Experience = () => {
     {
       title: "General Secretary",
       organization: "Orator's Club MJCET",
-      period: "Aug 2024–Present",
+      period: "Aug 2024–Dec 2025",
       type: "Leadership",
-      status: "current",
+      status: "completed",
       description: "Managing club operations and public speaking events"
     },
     {

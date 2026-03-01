@@ -7,8 +7,21 @@ import Certifications from "@/components/Certifications";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import { useEffect } from "react";
+import { NavBar } from "@/components/ui/tubelight-navbar";
+import { Home, User, GraduationCap, Briefcase, Code2, Award, Brain, Mail } from "lucide-react";
 
 const Index = () => {
+  const navItems = [
+    { name: 'Home', url: '#hero', icon: Home },
+    { name: 'About', url: '#about', icon: User },
+    { name: 'Education', url: '#education', icon: GraduationCap },
+    { name: 'Experience', url: '#experience', icon: Briefcase },
+    { name: 'Projects', url: '#projects', icon: Code2 },
+    { name: 'Certifications', url: '#certifications', icon: Award },
+    { name: 'Skills', url: '#skills', icon: Brain },
+    { name: 'Contact', url: '#contact', icon: Mail }
+  ];
+
   useEffect(() => {
     // Add scroll-triggered animations
     const observerOptions = {
@@ -34,6 +47,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background font-inter">
+      <NavBar items={navItems} />
       <Hero />
       <About />
       <Education />

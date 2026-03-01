@@ -13,24 +13,24 @@ const About = () => {
           <div className="space-y-6 fade-in fade-in-delay-1">
             <p className="text-lg leading-relaxed text-foreground">
               I'm a dedicated Computer Science Engineering student at MJCET with a strong focus on machine learning, 
-              artificial intelligence, and frontend development. Currently pursuing my B.E. with a CGPA of 8.0, 
+              artificial intelligence, and web development. Currently pursuing my B.E. with a CGPA of 8.0, 
               I'm passionate about leveraging technology to solve real-world problems.
             </p>
             
             <p className="text-lg leading-relaxed text-foreground">
               Beyond academics, I'm actively involved in various student organizations and leadership roles. 
-              I serve as General Secretary for both ACM and Orator's Club, and hold marketing leadership positions 
-              in several tech clubs. I'm also the co-founder of Glassic, an innovative conversational AI platform.
+              I serve as the Chief Coordinator of Computer Society of India, and had held multiple other leadership positions 
+              in several tech clubs. I'm also the Google Student Ambassador at MJCET.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 pt-4">
               <div className="bg-background/50 p-4 rounded-lg border border-border">
                 <h4 className="font-semibold text-primary mb-2">Location</h4>
-                <p className="text-muted-foreground">Hyderabad, India</p>
+                <p className="text-muted-foreground">Hyderabad, Telangana, India</p>
               </div>
               <div className="bg-background/50 p-4 rounded-lg border border-border">
                 <h4 className="font-semibold text-primary mb-2">Focus</h4>
-                <p className="text-muted-foreground">AI & Machine Learning</p>
+                <p className="text-muted-foreground">AI/ML & Web Development</p>
               </div>
             </div>
           </div>
@@ -41,19 +41,23 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Projects Completed</span>
-                  <span className="font-bold text-2xl text-primary">10+</span>
+                  <span className="font-bold text-2xl text-primary">5+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Leadership Roles</span>
-                  <span className="font-bold text-2xl text-accent">8</span>
+                  <span className="font-bold text-2xl text-accent">12</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Typing Speed</span>
-                  <span className="font-bold text-2xl text-success">100 WPM</span>
+                  <span className="font-bold text-2xl text-success">130 WPM</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">CGPA</span>
                   <span className="font-bold text-2xl text-primary">8.0</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground">Hackathon wins</span>
+                  <span className="font-bold text-2xl text-success">10+</span>
                 </div>
               </div>
             </div>

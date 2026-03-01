@@ -2,12 +2,27 @@ import { Award, Trophy, Code, Brain, Users, Globe } from "lucide-react";
 
 const Certifications = () => {
   const certifications = [
+
+    {
+      title: "HackSavvy 2026",
+      issuer: "MGIT",
+      type: "Competition",
+      icon: <Users className="text-accent" size={24} />,
+      description: "Won the HackSavvy 2026 hackathon at MGIT in the AI and Robotics domain"
+    },
     {
       title: "Machine Learning Internship",
       issuer: "Delta Sigma Technologies",
       type: "Internship",
       icon: <Brain className="text-primary" size={24} />,
       description: "Hands-on experience in ML model development and data analysis"
+    },
+    {
+      title: "Hackvibe Winner",
+      issuer: "Vignan Institute of Technology",
+      type: "Competition",
+      icon: <Trophy className="text-success" size={24} />,
+      description: "Won the hackvibe competition at Vignan whose theme was based on Vibe coding and AI"
     },
     {
       title: "Machine Learning Internship",
@@ -39,14 +54,14 @@ const Certifications = () => {
     },
     {
       title: "Web3 Buildathon Participant",
-      issuer: "Blockchain Competition",
+      issuer: "",
       type: "Competition", 
       icon: <Globe className="text-accent" size={24} />,
       description: "Participated in decentralized application development challenge"
     },
     {
       title: "Innovatia Panoply 2025 - Consolation Prize",
-      issuer: "Tech Expo",
+      issuer: "MJCET",
       type: "Competition",
       icon: <Award className="text-primary" size={24} />,
       description: "Won consolation prize for innovative project presentation"
@@ -134,19 +149,19 @@ const Certifications = () => {
             <h3 className="text-2xl font-bold text-center mb-8">Achievement Overview</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">2</div>
-                <div className="text-muted-foreground text-sm">ML Internships</div>
+                <div className="text-3xl font-bold text-primary mb-2">3</div>
+                <div className="text-muted-foreground text-sm">Internships</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-success mb-2">1</div>
+                <div className="text-3xl font-bold text-success mb-2">5</div>
                 <div className="text-muted-foreground text-sm">Competition Win</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">1</div>
-                <div className="text-muted-foreground text-sm">Google Program</div>
+                <div className="text-3xl font-bold text-accent mb-2">12</div>
+                <div className="text-muted-foreground text-sm">Leadership roles</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">9+</div>
+                <div className="text-3xl font-bold text-primary mb-2">20+</div>
                 <div className="text-muted-foreground text-sm">Total Achievements</div>
               </div>
             </div>

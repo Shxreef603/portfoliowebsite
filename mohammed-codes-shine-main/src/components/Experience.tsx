@@ -3,12 +3,44 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "Chief Coordinator",
+      organization: "CSI MJCET",
+      period: "Sept 2025–Present",
+      type: "Leadership",
+      status: "current",
+      description: "Leading the organization and coordinating the activities and events"
+    },
+    {
       title: "Google Student Ambassador",
       organization: "Google",
-      period: "2025–Present",
+      period: "Aug 2025–Present",
       type: "Leadership",
       status: "current",
       description: "Becoming the face of Gemini at campus and holding events and workshops regarding Gemini and Google technologies"
+    },
+    {
+      title: "Tech Team",
+      organization: "EdVenture Park",
+      period: "Feb 2026–Present",
+      type: "Technical",
+      status: "current", 
+      description: "Working on building projects and gaining technical knowledge"
+    },
+    {
+      title: "Campus Developr Advocate",
+      organization: "Code for India Foundation",
+      period: "Sept 2025–Present",
+      type: "Leadership",
+      status: "current",
+      description: "Becoming the face of CFI at campus and holding events and workshops with CFI and promoting it's initiatives"
+    },
+    {
+      title: "Web Development Intern",
+      organization: "Bioreform",
+      period: "Oct 2025–Present",
+      type: "Internship",
+      status: "current",
+      description: "Developing an e commerce website for the organization"
     },
     {
       title: "Operations Head",

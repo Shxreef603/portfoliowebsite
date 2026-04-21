@@ -46,7 +46,10 @@ const Skills = () => {
         { name: "AWS Cloud", level: 70 },
         { name: "React.js", level: 80 },
         { name: "Next.js", level: 75 },
-        { name: "Tailwind CSS", level: 85 }
+        { name: "Tailwind CSS", level: 85 },
+        { name: "Git & GitHub", level: 80 },
+        { name: "Supabase", level: 80 }
+        
       ]
     },
     {
@@ -58,7 +61,8 @@ const Skills = () => {
         { name: "Teamwork", level: 90 },
         { name: "Marketing", level: 85 },
         { name: "Prompt Engineering", level: 80 },
-        { name: "Public Speaking", level: 90 }
+        { name: "Public Speaking", level: 90 },
+        { name: "Problem Solving", level: 95 }
       ]
     }
   ];
@@ -141,7 +145,13 @@ const Skills = () => {
                 { name: "React", icon: <Layers className="text-blue-400" /> },
                 { name: "AWS", icon: <Database className="text-amber-400" /> },
                 { name: "Flask", icon: <Zap className="text-emerald-400" /> },
-                { name: "Next.js", icon: <Smartphone className="text-slate-100" /> }
+                { name: "Next.js", icon: <Smartphone className="text-slate-100" /> },
+                { name: "Google Cloud", icon: <Globe className="text-blue-500" /> },
+                { name: "Supabase", icon: <Database className="text-blue-500" /> },
+                { name: "Git & GitHub", icon: <Database className="text-blue-500" /> },
+                { name: "TailwindCSS", icon: <Database className="text-blue-500" /> },
+                { name: "TypeScript", icon: <Database className="text-blue-500" /> },
+                { name: "HTML/CSS", icon: <Database className="text-emerald-500" /> },
               ].map((tech, index) => (
                 <div
                   key={index}

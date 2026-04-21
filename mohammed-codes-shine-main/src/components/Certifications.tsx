@@ -3,9 +3,17 @@ import { Award, Trophy, Code, Brain, Users, Globe, ExternalLink, ShieldCheck } f
 const Certifications = () => {
   const certifications = [
     {
+      title: "Nyxora MREM Hackathon Winner",
+      issuer: "MREM",
+      type: "Hackathon",
+      icon: <Award className="text-amber-400" size={24} />,
+      description: "Won 1st prize in Nyxora MREM 48 hours National hackathon with the prize money of 40k in AI domain",
+      color: "amber"
+    },
+    {
       title: "Agentathon 2026 Participant",
       issuer: "Malla Reddy University",
-      type: "Competition",
+      type: "Hackathon",
       icon: <Award className="text-cyan-400" size={24} />,
       description: "Participated in world's biggest 36 hour Agentic AI hackathon",
       color: "cyan"
@@ -13,10 +21,10 @@ const Certifications = () => {
     {
       title: "HackSavvy 2026 Winner",
       issuer: "MGIT",
-      type: "Competition",
-      icon: <Users className="text-cyan-400" size={24} />,
-      description: "Won the HackSavvy 2026 hackathon at MGIT in the AI and Robotics domain",
-      color: "cyan"
+      type: "Hackathon",
+      icon: <Users className="text-amber-400" size={24} />,
+      description: "Won the HackSavvy 2026 hackathon at MGIT with the prize money of 10k in the AI and Robotics domain",
+      color: "amber"
     },
     {
       title: "Machine Learning Internship",
@@ -29,9 +37,9 @@ const Certifications = () => {
     {
       title: "Hackvibe 2025 Winner",
       issuer: "Vignan Institute of Technology",
-      type: "Competition",
+      type: "Hackathon",
       icon: <Trophy className="text-amber-400" size={24} />,
-      description: "Won the hackvibe competition at Vignan whose theme was based on Vibe coding and AI",
+      description: "Won 1st prize in hackvibe competition at Vignan with the prize money of 15k whose theme was based on Vibe coding and AI",
       color: "amber"
     },
     {
@@ -52,43 +60,43 @@ const Certifications = () => {
     },
     {
       title: "Hack Revolution 2025 Winner",
-      issuer: "Technical Hackathon",
-      type: "Competition",
+      issuer: "MJCET",
+      type: "Hackathon",
       icon: <Trophy className="text-amber-400" size={24} />,
-      description: "Won 2nd prize in hardware domain",
+      description: "Won 2nd prize Hack Revolution 2025 with the prize money of 25k in hardware domain",
       color: "amber"
     },
     {
       title: "Hackprix 2025 Participant", 
-      issuer: "hackathon",
-      type: "Competition",
-      icon: <Trophy className="text-amber-400" size={24} />,
+      issuer: "LORDS institute of Technology",
+      type: "Hackathon",
+      icon: <Trophy className="text-cyan-400" size={24} />,
       description: "Participated in hackprix in AI domain",
-      color: "amber"
+      color: "cyan"
     },
     {
       title: "Web3 Buildathon Participant",
       issuer: "Mahindra University",
-      type: "Competition", 
-      icon: <Globe className="text-violet-400" size={24} />,
+      type: "Hackathon", 
+      icon: <Globe className="text-cyan-400" size={24} />,
       description: "Participated in decentralized application development challenge",
-      color: "violet"
+      color: "cyan"
     },
     {
       title: "Innovatia Panoply 2025 - Consolation Prize",
       issuer: "MJCET",
-      type: "Competition",
-      icon: <Award className="text-cyan-400" size={24} />,
+      type: "Project Expo",
+      icon: <Award className="text-amber-400" size={24} />,
       description: "Won consolation prize for innovative project presentation",
-      color: "cyan"
+      color: "amber"
     },
     {
       title: "Expogenix Winner",
       issuer: "MJCET",
-      type: "Competition",
-      icon: <Award className="text-cyan-400" size={24} />,
+      type: "Project Expo",
+      icon: <Award className="text-amber-400" size={24} />,
       description: "Outstanding project presentation and technical innovation",
-      color: "cyan"
+      color: "amber"
     },
     {
       title: "Organizer at DATANYX 2024",
@@ -96,6 +104,14 @@ const Certifications = () => {
       type: "Leadership",
       icon: <Users className="text-violet-400" size={24} />,
       description: "Led marketing initiatives for Telangana's first datathon and volunteered for coordination",
+      color: "violet"
+    },
+    {
+      title: "Organizer at FEEL 2025",
+      issuer: "Goodmind.app",
+      type: "Leadership",
+      icon: <Users className="text-violet-400" size={24} />,
+      description: "Led marketing and operations initiatives for Telangana's biggest mental wellness event FEEL 25 happened in Sattva Knowledge city, Hyderabad",
       color: "violet"
     }
   ];
@@ -113,7 +129,7 @@ const Certifications = () => {
 
   const stats = [
     { label: "Internships", value: "3", icon: <Brain size={20} />, color: "text-emerald-400" },
-    { label: "Competitions", value: "5", icon: <Trophy size={20} />, color: "text-amber-400" },
+    { label: "Hackathons wins", value: "6", icon: <Trophy size={20} />, color: "text-amber-400" },
     { label: "Leadership", value: "12", icon: <Users size={20} />, color: "text-violet-400" },
     { label: "Achievements", value: "20+", icon: <Award size={20} />, color: "text-cyan-400" },
   ];

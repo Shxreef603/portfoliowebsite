@@ -2,9 +2,9 @@ import { MapPin, Brain, Code, Users, Zap, Trophy } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { label: "Projects Completed", value: "6+", icon: <Code className="text-cyan-400" size={20} />, color: "text-cyan-400" },
+    { label: "Projects Completed", value: "8+", icon: <Code className="text-cyan-400" size={20} />, color: "text-cyan-400" },
     { label: "Leadership Roles", value: "12", icon: <Users className="text-violet-400" size={20} />, color: "text-violet-400" },
-    { label: "Hackathon Wins", value: "10+", icon: <Trophy className="text-amber-400" size={20} />, color: "text-amber-400" },
+    { label: "Hackathon participated", value: "20+", icon: <Trophy className="text-amber-400" size={20} />, color: "text-amber-400" },
     { label: "Typing Speed", value: "130 WPM", icon: <Zap className="text-emerald-400" size={20} />, color: "text-emerald-400" },
     { label: "CGPA", value: "8.0", icon: <Brain className="text-cyan-400" size={20} />, color: "text-cyan-400" },
   ];

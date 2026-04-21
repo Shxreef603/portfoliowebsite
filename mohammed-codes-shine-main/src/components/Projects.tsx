@@ -6,9 +6,35 @@ import glassicAI from "@/assets/glassic-ai.jpg";
 import literaryWeek from "@/assets/literary-week.png";
 import greenyBags from "@/assets/greenybags.png";
 import fitlyApp from "@/assets/fitly-app.png";
+import voxera from "@/assets/voxera.png";
+import adsophos from "@/assets/adsophos.png";
+
+
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Adsophos: College Fest Platform",
+      description: "Adsophos 2026 Landing page. A full Stack website for college fest events featuring 14+ events, their information, along with the registrations of these events integrated via Supabase in the backend",
+      image: adsophos,
+      technologies: ["React", "TailwindCSS", "Supabase", "TypeScript", "Next.js"],
+      link: "https://adsophos.com",
+      github: null,
+      icon: <Globe className="text-cyan-400" size={24} />,
+      type: "Web Development"
+    },
+    {
+      title: "VoxeraAI: An AI Receptionist Platform",
+
+      description: "An AI SAAS platform that builts AI receptionist for Businessess. It extracts all the infromation between the customer and the AI agents and stores in multiple postcall workflows such as Google sheets, Google calender, and email of the business owner who creates the ai agent",
+      image: voxera,
+      technologies: ["TypeScript", "TailwindCSS", "Supabase", "React", "Google cloud"],
+      link: "https://voxeraai.vercel.app",
+      github: null,
+      icon: <Bot className="text-cyan-400" size={24} />,
+      type: "AI Platform"
+    },
+
     {
       title: "GreenyBags - An AI E-commerce Platform",
       description: "A sustainable e-commerce platform integrating AI-driven features, immersive 3D product visualization with Three.js, and scalable cloud infrastructure.",
@@ -40,16 +66,6 @@ const Projects = () => {
       type: "AI Platform"
     },
     {
-      title: "Student Placement Prediction ML Model",
-      description: "Machine learning model developed during internship at Delta Sigma Technologies to predict student placement outcomes with high accuracy using various algorithms.",
-      image: studentPlacementML,
-      technologies: ["Python", "Machine Learning", "Data Analysis", "Scikit-learn", "Pandas"],
-      link: null,
-      github: null,
-      icon: <Code2 className="text-cyan-400" size={24} />,
-      type: "Machine Learning"
-    },
-    {
       title: "Literary Week Landing Page",
       description: "A sophisticated landing page for university literary events featuring elegant design, event information, and interactive elements for enhanced user engagement.",
       image: literaryWeek,
@@ -58,16 +74,6 @@ const Projects = () => {
       github: null,
       icon: <Globe className="text-cyan-400" size={24} />,
       type: "Web Development"
-    },
-    {
-      title: "Restaurant Menu & Weather App",
-      description: "Dual-purpose web application developed during Internpreneur 4.0, featuring a dynamic restaurant menu interface and real-time weather information.",
-      image: restaurantWeatherApp,
-      technologies: ["HTML", "CSS", "JavaScript", "API Integration", "Responsive Design"],
-      link: null,
-      github: null,
-      icon: <FileText className="text-cyan-400" size={24} />,
-      type: "Web Application"
     }
   ];
 
